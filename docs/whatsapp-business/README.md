@@ -4,17 +4,24 @@
 * https://docs.pingidentity.com/bundle/davinci-pingone-connector/page/hlh1642792860912.html
 
 
-# Template Simple Connector
+# WhatsApp for Business Connector
 
 
 ## Doc draft
 
-Author: 
+Author: Matthew Teets
 
 
 # Introduction
+       
+You can use the WhatsApp connector to send templated messages to any WhatsApp account.
 
-[Describe the product. List the main use cases the connector supports.]
+The WhatsApp connector so far has the single capability that allows the user to fillout WhatsApp templated messages, and send them from the connector to a single users WhatsApp account. The connector cannot currently receive any messsages or input from the recipient of the templated messages, but takes care of all API request and variable formatting.
+
+You can use the WhatsApp connector to send: <br>
+  • Text message templates <br>
+  • Media message templates <br>
+  • Interactive message templates <br>
 
 
 # Setup
